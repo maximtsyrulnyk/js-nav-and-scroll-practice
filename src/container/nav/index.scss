@@ -1,0 +1,36 @@
+main {
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+} 
+
+.nav {
+	padding: 6px 24px;
+	border-radius: 60px;
+	max-width: 620px;
+	width: 100%;
+	background-color: #35363a;
+
+	display: flex;
+	gap: 16px;
+
+	&__button {
+		margin: 6px 0;
+		width: 24px;
+		height: 24px;
+
+		transition: 0.7s;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	&__input {
+		background-color: #202124;
+		border-radius: 60px;
+		padding: 0 20px;
+		color: #fff;
+		width: 100%;
+	}
+}
